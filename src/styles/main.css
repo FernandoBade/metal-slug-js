@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	font-family: monospace;
+	font-size: 14px;
+}
+
+@font-face {
+	font-family: Titulo;
+	src: url(../assets/fontes/mslug.TTF);
+}
+
+h1 {
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #110638;
+	font-family: Titulo;
+}
+
+body {
+	background-image: url(../assets/images/fundo.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container {
+	width: 950px;
+	height: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#fundoGame {
+	width: 950px;
+	height: 630px;
+	background-image: url(../assets/images/fundo_game.jpg);
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#jogador {
+	width: 120px;
+	height: 110px;
+	position: absolute;
+	left: 20px;
+	top: 179px;
+	background-image: url(../assets/images/aviao1.webp);
+	object-fit: cover;
+	background-size: cover;
+}
+
+#inimigo1 {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 90%;
+	top: 293px;
+	background-image: url(../assets/images/ovni.gif);
+	object-fit: cover;
+	background-size: cover;
+	
+}
+
+#inimigo2 {
+	width: 165px;
+	height: 70px;
+	position: absolute;
+	left: 775px;
+	top: 447px;
+	background-image: url(../assets/images/inimigo3.gif);
+}
+
+#amigo {
+	width: 44px;
+	height: 51px;
+	position: absolute;
+	left: 10px;
+	top: 464px;
+	background-image: url(../assets/images/amigo.gif);
+}
+
+#inicio {
+	width: 350px;
+	height: 240px;
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 0px 10px 80px 10px;
+	border-radius: 12px;
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+	font-size:15px;
+
+}
+
+.start {
+	text-align: left;
+	margin-left: 105px;
+	font-size: 16px;
+}
+
+
+#disparo {
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: -92px;
+	background-image: url(../assets/images/disparo.png);
+}
+
+#explosao1 {
+	width: 100px;
+	height: 150px;
+	position: absolute;
+	background-size: cover;
+	bottom: 100px;
+	margin-top: -50px;
+}
+
+#explosao2 {
+	width: 100px;
+	height: 150px;
+	position: absolute;
+	background-size: cover;
+	bottom: 100px;
+	margin-top: -50px;
+}
+
+#explosao3 {
+	width: 44px;
+	height: 51px;
+	position: absolute;
+}
+
+.anima4 {
+	width: 44px;
+	height: 51px;
+	background-image: url(../assets/images/amigo_morte.png);
+	animation: play3 .5s steps(7) infinite;
+
+	-webkit-animation: play3 .5s steps(7) infinite;
+	-moz-animation: play3 .5s steps(7) infinite;
+	-ms-animation: play3 .5s steps(7) infinite;
+	-o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+	from {
+		background-position: 0px;
+	}
+
+	to {
+		background-position: -308px;
+	}
+}
+
+@-webkit-keyframes play3 {
+	from {
+		background-position: 0px;
+	}
+
+	to {
+		background-position: -308px;
+	}
+}
+
+@-moz-keyframes play3 {
+	from {
+		background-position: 0px;
+	}
+
+	to {
+		background-position: -308px;
+	}
+}
+
+@-ms-keyframes play3 {
+	from {
+		background-position: 0px;
+	}
+
+	to {
+		background-position: -308px;
+	}
+}
+
+@-o-keyframes play3 {
+	from {
+		background-position: 0px;
+	}
+
+	to {
+		background-position: -308px;
+	}
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 545px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #FFF;
+	font-family: monospace;
+	margin: 5px 15px;
+}
+
+button {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: rgb(36, 177, 99);
+	color: #fff;
+}
+
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 795px;
+	top: 25px;
+}
+
+h3 {
+	font-family: Titulo;
+	font-size: 20px;
+	color: black;
+	letter-spacing:2px;
+	cursor: pointer;
+}
+
+.rodape{
+	color:white;
+	text-align:center;
+	width: 940px;
+	bottom: 20px;
+	position: absolute;
+	line-height: 20px;
+}
+
+.rodape a{
+	color:white;
+}
+.rodape a:hover{
+	color:rgb(172, 172, 172);
+}
+
+#fim {
+	width: 350px;
+	height: 200px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	font-family: 'monospace';
+	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+
+}

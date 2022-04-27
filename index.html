@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Metal Slug JS</title>
+
+    <link href="./src/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()">
+                <h1> Metal Slug JS </h1>
+                Destrua os inimigos e resgate os reféns!
+                <p class="start">
+                    <strong>W</strong> = ▲ cima<br>
+                    <strong>S</strong> = ▼ baixo<br>
+                    <strong>A</strong> = ◄ esquerda<br>
+                    <strong>D</strong> = ► direita<br>
+                    <strong>Espaço</strong> = ✱ atirar<br>
+                </p>
+                <button>JOGAR</button>
+            </div>
+        </div>
+    </div>
+    <footer class="rodape">
+        Projeto concluído para estudo e aprimoramento de conceitos de Javascript e jQuery dentro do bootcamp Órbi Web
+        Games Developer, oferecido pela <a href="https://dio.me" target="_blank">Digital Innovation One</a>. O projeto
+        foi totalmente inspirado na franquila Metal Slug, da SNK, sendo ela a detentora de todas as mídias utilizadas e
+        seus direitos legais. <br><br>
+        Visite o repositório do projeto no GitHub <a href="http://github.com/FernandoBade/metal-slug-js">clicando
+            aqui</a>.
+    </footer>
+    <!-- Sons do jogo ! -->
+    <audio src="./src/assets/audios/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="./src/assets/audios/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="./src/assets/audios/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="./src/assets/audios/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="./src/assets/audios/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="./src/assets/audios/resgate.mp3" preload="auto" id="somResgate"></audio>
+    <script type="text/javascript" src="./src/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./src/scripts/main.js"></script>
+    <script type="text/javascript" src="./src/js/jquery-collision.min.js"></script>
+</body>
+
+</html>
