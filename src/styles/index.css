@@ -232,10 +232,7 @@ button {
 	border-radius: 4px;
 	transition: 0.2s;
 	cursor: pointer;
-<<<<<<< HEAD
 	z-index: 1000;
-=======
->>>>>>> 6be9712057f330dbb89b5fee92fc6cdc3afa0983
 }
 
 button:hover {
