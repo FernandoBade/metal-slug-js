@@ -4,7 +4,7 @@
 <br>
 
 Projeto feito para estudo e participação do bootcamp **Órbi Web Game Developer**, em parceria com a **Digital Innovation One**. 
-A ideia inicial era a criação de um jogo de platafotma para a web, criado utilizando conceitos de JavaScript e jQuery, e após conclusão das aulas, aprimorei o projeto e transformei em uma homenagem à uma das franquias que mais tive o prazer de jogar na adolescência, a **Metal Slug** , da produtora **SNK** [^1].
+A ideia inicial era a criação de um jogo de platafotma para a web, criado utilizando conceitos de JavaScript e jQuery, e após conclusão das aulas, aprimorei o projeto e transformei em uma homenagem à uma das franquias que mais tive o prazer de jogar na adolescência, a **Metal Slug**[^1], da produtora **SNK**.
 
 
 ## Jogue Agora
@@ -25,7 +25,7 @@ Quer testar para ver como ficou? É só **[clicar aqui](https://pages)** :)
 
 - HTML;
 - CSS;
-- JavasSript Vanilla;
+- JavaScript Vanilla;
 - JQuery;
 - JQuery Collision;
 - Adobe Photoshop;
