@@ -29,9 +29,11 @@ A ideia inicial era a criação de um jogo de platafotma para a web, criado util
 
 ## Jogue Agora
 
-Quer testar para ver como ficou? É só apertar abaixo :)
+Quer testar para ver como ficou? É só <a href="https://fernandobade.github.io/metal-slug-js/" target="_blank">clicar aqui</a> ou na imagem abaixo :)
 
-[<img src="https://user-images.githubusercontent.com/89167737/165472965-217056d7-87cf-419d-b6ee-9e948539aced.gif">](https://fernandobade.github.io/metal-slug-js/)
+
+
+[<img src="https://user-images.githubusercontent.com/89167737/165472965-217056d7-87cf-419d-b6ee-9e948539aced.gif" target="_blank">](https://fernandobade.github.io/metal-slug-js/)
 
 
 [^1]: [pt-BR] "METAL SLUG" é uma marca registrada da SNK PLAYMORE CORPORATION. A SNK PLAYMORE CORPORATION é proprietária de todo o conteúdo e material utilizado neste projeto, suas marcas registradas e direitos autorais. Toda e qualquer outra empresa ou produto utilizado neste projeto, assim como suas marcas registradas, são de propriedade exclusiva de seus respectivos proprietários. [en-US] “METAL SLUG” is a registered trademark of SNK PLAYMORE CORPORATION. The SNK PLAYMORE CORPORATION owns of all content and materials used on this project, its trademarks and copyrights. All other company and product names used herein are trademarks or registered trademarks of their respective owners.
