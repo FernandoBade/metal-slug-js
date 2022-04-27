@@ -1,5 +1,5 @@
-
 <img src="./src/assets/images/metal-slug-js.gif" alt="Metal Slug JS - Javascript Web Game">
+
 <h1 align="center">Metal Slug JS</h1>
 <br>
 
@@ -9,7 +9,7 @@ A ideia inicial era a criação de um jogo de platafotma para a web, criado util
 
 ## Jogue Agora
 
-Quer testar para ver como ficou? É só **[clicar aqui](https://pages)** :)
+Quer testar para ver como ficou? É só **[clicar aqui](https://fernandobade.github.io/metal-slug-js/)** :)
 
 ## O que foi adicionado: 
 
