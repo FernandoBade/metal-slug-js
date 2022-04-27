@@ -32,4 +32,4 @@ Quer testar para ver como ficou? É só **[clicar aqui](https://fernandobade.git
 - Adobe After Effects.
 
 
-[^1]: “METAL SLUG” is a registered trademark of SNK PLAYMORE CORPORATION. The SNK PLAYMORE CORPORATION owns of all content and materials used on this project, its trademarks and copyrights. All other company and product names used herein are trademarks or registered trademarks of their respective owners.
+[^1]: [pt-BR] "METAL SLUG" é uma marca registrada da SNK PLAYMORE CORPORATION. A SNK PLAYMORE CORPORATION é proprietária de todo o conteúdo e material utilizado neste projeto, suas marcas registradas e direitos autorais. Toda e qualquer outra empresa ou produto utilizado neste projeto, assum como suas marcas registradas, são de propriedade exclusiva de seus respectivos proprietários. [en-US] “METAL SLUG” is a registered trademark of SNK PLAYMORE CORPORATION. The SNK PLAYMORE CORPORATION owns of all content and materials used on this project, its trademarks and copyrights. All other company and product names used herein are trademarks or registered trademarks of their respective owners.
