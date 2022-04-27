@@ -5,16 +5,22 @@
 	font-size: 14px;
 }
 
+
 @font-face {
-	font-family: Titulo;
-	src: url(../assets/fonts/mslug.TTF);
+    font-family: 'metal_slug_latinoregular';
+    src: url(../assets/fonts/mslug-webfont.woff2) format('woff2'),
+         url(../assets/fonts/mslug-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 
 h1 {
 	font-size: 45px;
 	letter-spacing: 2px;
 	color: #110638;
-	font-family: Titulo;
+	font-family: 'metal_slug_latinoregular';
 }
 
 body {
@@ -125,6 +131,7 @@ body {
 	background-size: cover;
 	bottom: 100px;
 	margin-top: -50px;
+	z-index: 0;
 }
 
 #explosao2 {
@@ -224,6 +231,8 @@ button {
 	margin: 5px;
 	border-radius: 4px;
 	transition: 0.2s;
+	cursor: pointer;
+	z-index: 1000;
 }
 
 button:hover {
@@ -241,7 +250,7 @@ button:hover {
 }
 
 h3 {
-	font-family: Titulo;
+	font-family: 'metal_slug_latinoregular';
 	font-size: 20px;
 	color: black;
 	letter-spacing:2px;
@@ -249,16 +258,19 @@ h3 {
 }
 
 .rodape{
+	width: 950px;
 	color:white;
 	text-align:center;
 	width: fit-content;
 	bottom: 10px;
 	position: absolute;
 	line-height: 18px;
+	font-size: 10px;
 }
 
 .rodape a{
 	color:white;
+	font-size: 10px;
 }
 .rodape a:hover{
 	color:rgb(172, 172, 172);
@@ -275,5 +287,6 @@ h3 {
 	font-family: 'monospace';
 	box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
 	border-radius: 12px;
+	z-index: 100;
 
 }
