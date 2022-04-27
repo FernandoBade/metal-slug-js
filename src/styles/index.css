@@ -224,6 +224,7 @@ button {
 	margin: 5px;
 	border-radius: 4px;
 	transition: 0.2s;
+	cursor: pointer;
 }
 
 button:hover {
