@@ -38,7 +38,6 @@ body {
 
 }
 
-
 #fundoGame {
 	width: 950px;
 	height: 630px;
@@ -252,10 +251,10 @@ h3 {
 .rodape{
 	color:white;
 	text-align:center;
-	width: 940px;
-	bottom: 20px;
+	width: fit-content;
+	bottom: 10px;
 	position: absolute;
-	line-height: 20px;
+	line-height: 18px;
 }
 
 .rodape a{
