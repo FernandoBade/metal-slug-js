@@ -23,7 +23,8 @@ A ideia base era a criação de um jogo de platafotma para a web, criado utiliza
 - O CSS foi refeito para se adequar aos novos elementos, garantindo fluidez no jogo e a funcionalidade de impacto entre projéteis e veículos;
 - Com o Photoshop e After Effects, trabalhei na criação do cenário e ajustes nas animações para que representassem com fidelidade a sensação de estar dentro do universo do jogo;
 - As trilhas sonoras também foram readaptadas, contando com arquivos originais também retirados diretamente dos jogos e mixagens de trilhas para maior imersão dentro do jogo;
-- Toda a UI de base, como contador de pontos e barra de vida também foram ajustados para acompanhar as demais mudanças.
+- Toda a UI de base, como contador de pontos e barra de vida também foram ajustados para acompanhar as demais mudanças;
+- O jogo fica gradualmente mais desafiador, aumentando a velocidade das naves inimigas e a quantidade de novos encontros.
 
 
 ## Jogue Agora
